@@ -21,7 +21,6 @@
 // THE SOFTWARE.
 
 import UIKit
-
 import IQKeyboardManagerSwift
 
 
@@ -31,10 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate/*, UISplitViewControllerDe
     var window: UIWindow?
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-  //      IQKeyboardManager.sharedManager().enable = true
-        
-        
+        IQKeyboardManager.sharedManager().enable = true
         return true
     }
     

@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class ZHDynamicCollectionView: UICollectionView {
     // A dictionary of offscreen cells that are used within the sizeForItemAtIndexPath method to handle the size calculations. These are never drawn onscreen. The dictionary is in the format:
     // { NSString *reuseIdentifier : UICollectionViewCell *offscreenCell, ... }
@@ -30,8 +31,8 @@ class ZHDynamicCollectionView: UICollectionView {
     - parameter identifier: A string identifying the cell object to be reused. This parameter must not be nil.
     
     - returns: UICollectionViewCell?
-    */
-    func dequeueReusableOffScreenCellWithReuseIdentifier(identifier: String) -> UICollectionViewCell? {
+    **/
+        func dequeueReusableOffScreenCellWithReuseIdentifier(identifier: String) -> UICollectionViewCell? {
         var cell: UICollectionViewCell? = offscreenCells[identifier]
         if cell == nil {
             if registeredCellNibs.indexForKey(identifier) != nil {
