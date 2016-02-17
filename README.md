@@ -1,18 +1,19 @@
+#Done example tasks (Swift)
+
 ![alt](https://github.com/habr/ChatTestTask/blob/master/1.gif)
 
-Задача
+Task
 
-Сделать приложение - чат.
+To make chat application.
 
-Описание API: http://docs.junior01socialapp.apiary.io/
+API description: http://docs.junior01socialapp.apiary.io/
 
-При загрузке сообщения, должен подтягиваться список сообщений (самые последние + по 20 элементов)
+When you download messages, need to catch up messages list (the last + 20 items)
 
-Отображать сообщения снизу вверх, от нового к старому
+To display messages from the bottom up, from the new to the old
 
-При прокрутке списка вверх должны подгружаться более ранние сообщения. Опять же по 20 элементов
+When scrolling the list upwards have loaded earlier messages. Again, 20 elements
 
-Сделать возможным отправку на сервер текстового сообщения, длинной до 255 символов и картинки, размером не более 600х600 и весом не более 200кб
+To make it possible to send to the server a text message, up to 255 characters and images that are no larger than 600x600 and weighing not more than 200KB
 
-
-Потрачено 15 рабочих дней
+Spent 15 working days
