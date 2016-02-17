@@ -1,4 +1,4 @@
-#Done example tasks (Swift)
+#Chat (Swift)
 
 ![alt](https://github.com/habr/ChatTestTask/blob/master/1.gif)
 
